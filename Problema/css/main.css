@@ -13,6 +13,12 @@
     padding: 4px 7px;
 
 }
+.btn_negro{
+    background-color: black;
+    color: white;
+    padding: 1px 3px;
+}
 .text_plomo{
     color:#A5A5A5;
+    font-size: 13px;
 }
