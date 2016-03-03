@@ -2,9 +2,47 @@
 /*BOOTSTRAP PARCH*/
 .nav-tabs{
     background-color: #D6D6D6;
+    border: none;
+    padding:40px 13px 0px 13px;
+
+}
+.nav-tabs li a{
+	color: black;
+	font-weight: bold;
+	padding: 8px 32px;
 }
 .navbar-collapse{
+padding: 0px;
+}
+.container-fluid{
+	padding: 0px;
+}
+.navbar-default{
+	background-color: transparent;
+	border: none;
 
+}
+.navbar-default .navbar-nav>li>a{
+	color: black;
+	font-weight: bold;
+}
+.navbar-default .navbar-brand{
+	color: black;
+	
+	font-size: 25px;
+}
+
+.btn-default {
+    color: black;
+    background-color: #D6D6D6;
+    border-color: black;
+    padding: 1px 13px;
+}
+.form-control{
+	height: 26px;
+	padding: 5px 2px;
+	border: 1px solid black;
+	border-radius: 0px;
 }
 /*BOTON*/
 .btn_plomo{
@@ -21,4 +59,50 @@
 .text_plomo{
     color:#A5A5A5;
     font-size: 13px;
+}
+.row{
+	padding: 0px;
+	margin: 0px;
+	
+}
+.sinpadding [class*="col-"] {
+    padding: 0;
+}
+
+.text-white{
+	background-color: white;
+	border: 1px solid black;
+	height: 180px;
+	margin: 10px 0px 0px 0px;
+}
+.backg_plomo{
+background-color: #DEDEDE;
+padding: 0px 10px 118px 10px;
+}
+#play_video{
+	height: 50px;
+	padding: 0px;
+	position: relative;
+	top: 128px;
+	border-top:1px solid; 
+}
+a{
+	color: black;
+}
+#foto{
+	padding: 0px;
+	height: 200px;
+	margin: 5px 0px;
+}
+
+
+#fecha{
+	width: 74px;
+	height: 74px;
+	float: left;
+	margin: 5px 15px 5px 10px;
+}
+.btn_plomo{
+	padding: 0px;
+	height: 74px;
 }
