@@ -1,108 +1,189 @@
 /* Inserta tu código aqui */
+
+
 /*BOOTSTRAP PARCH*/
-.nav-tabs{
+
+.nav-tabs {
     background-color: #D6D6D6;
     border: none;
-    padding:40px 13px 0px 13px;
-
+    padding: 40px 13px 0px 13px;
 }
-.nav-tabs li a{
-	color: black;
-	font-weight: bold;
-	padding: 8px 32px;
+.nav-tabs li a {
+    color: black;
+    font-weight: bold;
+    padding: 8px 32px;
 }
-.navbar-collapse{
-padding: 0px;
+.navbar-collapse {
+    padding: 0px;
 }
-.container-fluid{
-	padding: 0px;
+.container-fluid {
+    padding: 0px;
 }
-.navbar-default{
-	background-color: transparent;
-	border: none;
-
+.navbar-default {
+    background-color: transparent;
+    border: none;
 }
-.navbar-default .navbar-nav>li>a{
-	color: black;
-	font-weight: bold;
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    font-weight: bold;
 }
-.navbar-default .navbar-brand{
-	color: black;
-	
-	font-size: 25px;
+.navbar-default .navbar-brand {
+    color: black;
+    font-size: 25px;
 }
-
 .btn-default {
     color: black;
     background-color: #D6D6D6;
     border-color: black;
     padding: 1px 13px;
 }
-.form-control{
-	height: 26px;
-	padding: 5px 2px;
-	border: 1px solid black;
-	border-radius: 0px;
+.form-control {
+    height: 26px;
+    padding: 5px 2px;
+    border: 1px solid black;
+    border-radius: 0px;
 }
+
 /*BOTON*/
-.btn_plomo{
+
+.btn_plomo {
     background-color: #929292;
     color: white;
-    padding: 4px 7px;
-
+    padding: 2px 8px 8px 8px;
 }
-.btn_negro{
+.btn_negro {
     background-color: black;
     color: white;
-    padding: 1px 3px;
+    padding: 2px 20px;
 }
-.text_plomo{
-    color:#A5A5A5;
-    font-size: 13px;
+.text_plomo {
+    color: #A5A5A5;
+    font-size: 11px;
 }
-.row{
-	padding: 0px;
-	margin: 0px;
-	
+.underline {
+    text-decoration: underline;
+    font-size: 11px;
+}
+.etique {
+    margin-left: 40px;
+    font-style: normal;
+}
+.vermas_right {
+    float: right;
+}
+.row {
+    padding: 0px;
+    margin: 0px;
 }
 .sinpadding [class*="col-"] {
     padding: 0;
 }
+.text-white {
+    background-color: white;
+    border: 1px solid black;
+    height: 210px;
+    margin: 15px 0px 0px 0px;
+}
+.backg_plomo {
+    background-color: #DEDEDE;
+    padding: 0px 10px 20px 10px;
+}
+#play_video {
+    height: 50px;
+    padding: 0px;
+    position: relative;
+    top: 158px;
+    border-top: 1px solid;
+}
+.barra_video {
+    margin: 15px;
+}
+.time_video {
+    border-radius: 4px;
+    background-color: white;
+    margin: -12px 20px;
+    width: 80%;
+    height: 4px;
+    text-align: center;
+}
+.fa-circle {
+    position: relative;
+    left: 120px;
+}
+.glyphicon-volume-up {
+    position: relative;
+    left: 30%;
+}
+a {
+    color: black;
+    font-weight: bold;
+}
+#foto {
+    padding: 0px;
+    height: 160px;
+    margin: 5px 0px;
+    text-align: center;
+}
+.agenda {
+    margin: 0px 5px;
+}
+.dia {
+    float: left;
+    background-color: #A5A5A5;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+.btns_plomo {
+    padding: 0px;
+    height: 74px;
+}
+.navbar-collapse.in {
+    overflow-y: hidden;
+}
+.magazine {
+    background-color: #ebebeb;
+}
+.informacion, .magazine {
+    margin: 5px 0px 0px 5px;
+    padding: 1px 8px;
+}
+.info_fa {
+    line-height: 20px;
+    display: block;
+}
+.info_footer {
+    padding: 30px 0px;
+    float: left;
+    margin-right: 70px;
+}
+.separador {
+    width: 100%;
+    background-color: #444444;
+    height: 4px;
+}
 
-.text-white{
-	background-color: white;
-	border: 1px solid black;
-	height: 180px;
-	margin: 10px 0px 0px 0px;
-}
-.backg_plomo{
-background-color: #DEDEDE;
-padding: 0px 10px 118px 10px;
-}
-#play_video{
-	height: 50px;
-	padding: 0px;
-	position: relative;
-	top: 128px;
-	border-top:1px solid; 
-}
-a{
-	color: black;
-}
-#foto{
-	padding: 0px;
-	height: 200px;
-	margin: 5px 0px;
-}
+/*MEDIA QUERIES*/
 
-
-#fecha{
-	width: 74px;
-	height: 74px;
-	float: left;
-	margin: 5px 15px 5px 10px;
+@media (min-width:768px) and (max-width:1199px) {
+    .nav-tabs li a {
+        color: black;
+        font-weight: bold;
+        padding: 8px 5px;
+    }
+    .info_footer {
+        margin-right: 40px;
+    }
 }
-.btn_plomo{
-	padding: 0px;
-	height: 74px;
+@media (min-width:600px) {
+    .navbar-nav {
+        float: right;
+    }
+    .navbar-nav li {
+        float: right;
+    }
+    .navbar-toggle {}
+    .info_footer {
+        margin-right: 60px;
+    }
 }
