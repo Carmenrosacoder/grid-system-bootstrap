@@ -1,6 +1,12 @@
 /* Inserta tu código aqui */
 
-
+.row {
+    padding: 0px;
+    margin: 0px;
+}
+.sinpadding [class*="col-"] {
+    padding: 0;
+}
 /*BOOTSTRAP PARCH*/
 
 .nav-tabs {
@@ -8,6 +14,7 @@
     border: none;
     padding: 40px 13px 0px 13px;
 }
+
 .nav-tabs li a {
     color: black;
     font-weight: bold;
@@ -43,10 +50,23 @@
     border: 1px solid black;
     border-radius: 0px;
 }
-
-/*BOTON*/
+.navbar-brand{
+    font-size: 30px;
+}
+a {
+    color: black;
+    font-weight: bold;
+}
+.navbar-collapse.in {
+    overflow-y: hidden;
+}
+.navbar-toggle .icon-bar{
+    background-color: black;
+}
+/*Articulo*/
 
 .btn_plomo {
+
     background-color: #929292;
     color: white;
     padding: 2px 8px 8px 8px;
@@ -71,13 +91,15 @@
 .vermas_right {
     float: right;
 }
-.row {
-    padding: 0px;
-    margin: 0px;
+#foto {
+    padding: 70px;
+    height: 160px;
+    margin: 5px 0px;
+    text-align: center;
+    color: black;
 }
-.sinpadding [class*="col-"] {
-    padding: 0;
-}
+
+/*Video*/
 .text-white {
     background-color: white;
     border: 1px solid black;
@@ -96,36 +118,41 @@
     border-top: 1px solid;
 }
 .barra_video {
-    margin: 15px;
+    position: relative;
+    margin: 16px;
 }
 .time_video {
     border-radius: 4px;
     background-color: white;
-    margin: -12px 20px;
+    margin: -13px 20px;
     width: 80%;
     height: 4px;
     text-align: center;
 }
 .fa-circle {
-    position: relative;
-    left: 120px;
+    font-size: 1em;
+    position: absolute;
+    left: 40%;
+    top: 6%;
 }
 .glyphicon-volume-up {
-    position: relative;
-    left: 30%;
+    
+    position: absolute;
+    left: 88%;
+
 }
-a {
-    color: black;
-    font-weight: bold;
-}
-#foto {
-    padding: 0px;
-    height: 160px;
-    margin: 5px 0px;
-    text-align: center;
-}
+
+/*Agenda*/
 .agenda {
-    margin: 0px 5px;
+
+    margin: 3px 10px;
+}
+.agenda_fecha{
+    height: 78px;
+}
+#agend_btn{
+    padding: 3px 88px 5px 2px;
+
 }
 .dia {
     float: left;
@@ -135,14 +162,11 @@ a {
     margin-right: 20px;
     text-align: center;
     font-weight: bold;
+    padding: 1%;
 }
-.btns_plomo {
-    padding: 0px;
-    height: 74px;
-}
-.navbar-collapse.in {
-    overflow-y: hidden;
-}
+
+
+/*masinformacion y magazine*/
 .magazine {
     background-color: #ebebeb;
 }
@@ -154,8 +178,9 @@ a {
     line-height: 20px;
     display: block;
 }
+/*footer*/
 .info_footer {
-    width: 200px;
+    width: 170px;
     display: inline-block;
     vertical-align: text-top !important;
     padding-top: 20px;
@@ -166,6 +191,7 @@ a {
     height: 4px;
 }
 
+
 /*MEDIA QUERIES*/
 
 @media (min-width:768px) and (max-width:1199px) {
@@ -175,12 +201,35 @@ a {
         padding: 8px 5px;
     }
 }
-@media (min-width:600px) {
+@media (max-width:600px)  {
     .navbar-nav {
         float: right;
     }
     .navbar-nav li {
         float: right;
+        display: block;
     }
-    .navbar-toggle {}
+    .navbar-header{
+        background-color: #DEDEDE;
+    }
+    .nav-tabs li{
+    float: none;
+}
+
+}
+@media (max-width:768px)  {
+    .navbar-nav {
+        float: right;
+    }
+    .navbar-nav li {
+        float: right;
+        display: block;
+    }
+    .navbar-header{
+        background-color: #DEDEDE;
+    }
+    .nav-tabs li{
+    float: none;
+}
+
 }

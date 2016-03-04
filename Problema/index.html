@@ -19,12 +19,14 @@
 
 <body>
 	<div class="container  sinpadding">
-		<nav class="navbar navbar-default">
+		
+		<nav class="navbar ">
 			<div class="container-fluid">
-				<!-- Brand and toggle get grouped for better mobile display -->
 				<a class="navbar-brand" href="#">Site name</a>
 				<div class="navbar-right">
 					<ul class="nav navbar-nav ">
+						<li><a href="#"><i class="glyphicon glyphicon-home"></i> Noticias</a></li>
+						<li><a href="#"><i class="glyphicon glyphicon-home"></i> Enlaces RSS </a></li>
 						<li>
 							<form class="navbar-form  hidden-md hidden-xs hidden-sm" role="search">
 								<div class="form-group ">
@@ -33,23 +35,23 @@
 								<button type="submit" class="btn btn-default">Buscar</button>
 							</form>
 						</li>
-						<li><a href="#"><i class="glyphicon glyphicon-home"></i> Enlaces RSS </a></li>
-						<li><a href="#"><i class="glyphicon glyphicon-home"></i> Noticias</a></li>
+						
+						
 					</ul>
 				</div>
 
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<!-- /.navbar-collapse -->
 			</div>
-			<button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-				<span class="sr-only">Toggle navigation</span>
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" 				data-target="#myNavbar">
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
-			</button>
-			<div class=" navbar-collapse " id="bs-example-navbar-collapse-1">
-				<ul class="nav nav-tabs   ">
+				</button>	
+								
+			</div>
+			<div class="collapse navbar-collapse " id="myNavbar">
+				<ul class="nav nav-tabs  ">
 					<li class="active"><a href="#">Bienvenido</a></li>
 					<li><a href="#">Actualidades</a></li>
 					<li><a href="#">En directo</a></li>
@@ -58,7 +60,7 @@
 					<li><a href="#">De nosotros a usted</a></li>
 				</ul>
 			</div>
-			<!-- /.container-fluid -->
+	
 		</nav>
 		<div class="row">
 			<div class="col-lg-5 col-sm-6">
@@ -146,9 +148,11 @@
 							<div class="barra_video">
 								<a href="#"> <i class="glyphicon glyphicon-play"></i></a>
 								<div class="time_video">
+
 								</div>
 								<a href="#"> <i class="fa fa-circle"></i></a>
 								<a href="#"><i class="glyphicon glyphicon-volume-up "></i></a>
+								
 								<a href="#"><i class="glyphicon glyphicon-fullscreen vermas_right "></i></a>
 							</div>
 						</div>
@@ -161,12 +165,12 @@
 				</div>
 				</br>
 				<div class="agenda">
-					<p><a href="#" class="btn_plomo">Agenda</a></p>
+					<p ><a href="#" class="btn_plomo" id="agend_btn">Agenda</a></p>
+				</br>
 					<div class="agenda_fecha">
 						<div class="fechas">
 							<div class="dia">
-								<p>23</p>
-								<p>ENERO</p>
+								<p>23 ENERO</p>
 							</div>
 							<strong>Lorem ipsum et diligat</strong>
 							<p class="text_plomo">Lorem ipsum dolor at amet,consectetur adpiscing elit</p>
@@ -176,8 +180,7 @@
 					<div class="agenda_fecha">
 						<div class="fechas">
 							<div class="dia">
-								<p>23</p>
-								<p>ENERO</p>
+								<p>23 ENERO</p>
 							</div>
 							<strong>Lorem ipsum et diligat</strong>
 							<p class="text_plomo">Lorem ipsum dolor at amet,consectetur adpiscing elit</p>
@@ -187,8 +190,7 @@
 					<div class="agenda_fecha">
 						<div class="fechas">
 							<div class="dia">
-								<p>23</p>
-								<p>ENERO</p>
+								<p>23 ENERO</p>
 							</div>
 							<strong>Lorem ipsum et diligat</strong>
 							<p class="text_plomo">Lorem ipsum dolor at amet,consectetur adpiscing elit</p>
@@ -198,8 +200,7 @@
 					<div class="agenda_fecha">
 						<div class="fechas">
 							<div class="dia">
-								<p>23</p>
-								<p>ENERO</p>
+								<p>23 ENERO</p>
 							</div>
 							<strong>Lorem ipsum et diligat</strong>
 							<p class="text_plomo">Lorem ipsum dolor at amet,consectetur adpiscing elit</p>
@@ -311,7 +312,7 @@
 				<a href="#"><i class="fa fa-bookmark info_fa">  Contáctanos</i></a>
 				<a href="#"><i class="fa fa-bookmark info_fa">  FAQ</i></a>
 				<a href="#"><i class="fa fa-bookmark info_fa">  Haga sus preguntas</i></a>
-				<a href="#"><i class="fa fa-bookmark info_fa">  Habitat/Urbanismo</i></a>
+				
 			</div>
 		</div>
 
@@ -322,6 +323,9 @@
 	<!-- jQuery (necesario para que funcionen los componentes de Bootstrap) -->
 	<script src="js/jquery-1.11.3.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		
 </body>
 
 </html>
